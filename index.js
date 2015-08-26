@@ -131,7 +131,9 @@ module.exports = {
     onKey: function(key, callback, options) {
         var binding;
 
-        key = key.charCodeAt ? key.toUpperCase().charCodeAt() : key;
+	if (typeof key === 'string') {
+        	key = key.charCodeAt ? key.toUpperCase().charCodeAt() : key;
+	}
         options = assign({}, DEFAULT_OPTIONS, options || {});
         binding = { callback: callback, options: options };
 

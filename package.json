@@ -1,5 +1,5 @@
 {
-  "author": "andornaut",
+  "author": "andornaut, bmakuh",
   "bugs": {
     "url": "https://github.com/andornaut/react-keybinding-mixin/issues"
   },
@@ -18,7 +18,7 @@
   "name": "react-keybinding-mixin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andornaut/react-keybinding-mixin.git"
+    "url": "https://github.com/bmakuh/react-keybinding-mixin.git"
   },
-  "version": "0.0.7"
+  "version": "0.0.8"
 }
